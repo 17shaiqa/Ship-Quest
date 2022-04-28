@@ -1,0 +1,158 @@
+h1 {
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1)
+}
+
+body {
+    background: url(ship.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: block;
+}
+
+.common {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 5px;
+    padding: 15px;
+    color: rgba(14, 29, 38, 1);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_1 {
+    width: 24%;
+    height: 206px;
+    float: left;
+    clear: left;
+}
+
+.top {
+    width: 21.8%;
+    height: 152px;
+    float: right;
+}
+
+.down {
+    width: 15%;
+    height: 180px;
+    float: right;
+    clear: right;
+}
+
+.box_header {
+    float: left;
+    padding: 10px;
+    max-width: 90%;
+}
+
+i {
+    float: right;
+    /* clear: right; */
+    margin-top: 7px;
+}
+
+img {
+    float: right;
+    clear: right;
+    margin-top: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+.map {
+    width:100%;
+    height:auto;
+    float:left;
+    clear:both;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot-ddiv {
+    float: left;
+    clear: both;
+    width: 100%;
+    display: block;
+    height: 28px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.sat {
+    width: 33%;
+    float: left;
+    text-align: left;
+}
+
+.tue {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.sat1 {
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+.task {
+    width: 100%;
+    height: 120px;
+    float:left;
+    clear:both;
+    padding-left:10px;
+
+}
+.graph{
+    width:100%;
+    height:120px;
+    float:left;
+    clear:both;
+}
+.graph-img{
+    width:98%;
+    height: 147px;
+    margin-top: 0px;
+}
+.prod{
+    width:100%;
+    height:140px;
+    float:left;
+    clear:both;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: rgba(224, 234, 237,1);
+}
+.column{
+    /* width:50%; */
+    height: 10px;
+    background-color: rgba(255, 255, 255,1);
+    padding:3px;
+}
+.prod-row{
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items:center;
+}
+.number{
+    min-width: 35px;
+    text-align: end;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.inside-col{
+    height: 100%;
+}
+.numb-right{
+    font-size:14px;
+}
+.prod-i{
+    float: right;
+    margin-top: 0px;
+}
