@@ -1,0 +1,10 @@
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color:rgba(255,255,247,1);
+    text-align: left;
+    font-size: 10px;
+}
+table{
+    width:96%;
+}
